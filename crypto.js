@@ -65,7 +65,7 @@ module.exports = {
     return crypto.pbkdf2Sync(
       sharedKey,
       'monzwozere'.repeat(11),
-      1000000,
+      1000,
       32,
       'sha512'
     ).toString('base64')
