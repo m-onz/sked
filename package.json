@@ -4,6 +4,7 @@
   "description": "an encryption and decryption tool using a shared key",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node test",
     "build": "browserify ./index.js -o bundle.js",
     "watch": "watchify ./index.js -o bundle.js"

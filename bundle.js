@@ -133,7 +133,7 @@ function mainView (state, emit) {
           id="message"
           name="message"
           style="width:401px;height:201px;">${state.textarea}</textarea><br/>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" style="width: 407px; padding: 1em">
       </form>
       <p>built by m-onz : <a href="https://github.com/m-onz/sked">sked on github</a></a>
     </body>
