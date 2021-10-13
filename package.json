@@ -4,7 +4,9 @@
   "description": "an encryption and decryption tool using a shared key",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test",
+    "build": "browserify ./index.js -o bundle.js",
+    "watch": "watchify ./index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,12 @@
   },
   "homepage": "https://github.com/m-onz/sked#readme",
   "dependencies": {
+    "choo": "^7.1.0",
     "tweetnacl": "^1.0.3",
-    "tweetnacl-util": "^0.15.1"
+    "tweetnacl-util": "^0.15.1",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "choo-devtools": "^3.0.4"
   }
 }
