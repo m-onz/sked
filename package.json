@@ -1,0 +1,26 @@
+{
+  "name": "sked",
+  "version": "1.0.0",
+  "description": "an encryption and decryption tool using a shared key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-onz/sked.git"
+  },
+  "keywords": [
+    "privacy"
+  ],
+  "author": "m-onz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-onz/sked/issues"
+  },
+  "homepage": "https://github.com/m-onz/sked#readme",
+  "dependencies": {
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}
